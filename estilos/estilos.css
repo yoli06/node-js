@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;     
+}
+
+/* Rectangle 10 */
+
+.rectangulo{
+position:relative;
+background: #FF3333;
+padding: 0.5rem; 
+color: white;
+width: 70px;
+font-size: medium;
+left: 500px;
+font-size: 1rem;
+text-align: center;
+}
+
+.card{
+    border: #FF3333;
+}
+
+
+
+
+
+.card_img{
+    display: block;
+}
