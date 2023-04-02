@@ -1,8 +1,49 @@
+@import url('https://fonts.googleapis.com/css2? family= Raleway:ital,wght@0,100;1,100 & display=swap');
+
+:root{
+--color-primario: blue
+}
+    
+
 *{
     margin: 0;
-    padding: 0;     
+    padding: 0;  
+    box-sizing: border-box;   
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5;
+    color: #111111;
+    color: var(--color-primario);
 }
 
+a{
+ text-decoration: none;
+ font-size: 2em;
+ color: inherit;
+ 
+}
+
+ header , footer{ 
+font-family: raleway, sans-serif;
+color: aqua;
+}
+
+ul, ol{
+  list-style-type: none;
+
+}
+
+p{
+    font-size: 1.8em;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+
+/*shop*/
 /* Rectangle 10 */
 
 .rectangulo{
